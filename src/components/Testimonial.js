@@ -14,7 +14,7 @@ import r11 from '../assets/r11.jpeg'
 const Testimonial = () => {
   return (
     <div id="reviews" className="d-flex gap-3 flex-column justify-content-center items-align-center mb-5">
-      <h1 className="text-danger text-center"><u>Reviews</u></h1>
+      <h1 className="text-danger text-center"><u>Client Testimonials</u></h1>
       <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
