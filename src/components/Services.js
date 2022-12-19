@@ -2,19 +2,15 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div id='services' className="container d-flex my-5 py-5">
+    <div id='services' className="container d-flex justify-content-center my-5 py-5">
       <div className="row gap-5 gap-lg-0 mt-5">
-      <div className="col-12 col-lg-6 mb-lg-5 pb-lg-5">
+      <div className="col-12 mb-lg-5 pb-lg-5">
             <h2 className='text-danger'>CERTIFIED:</h2>
             <ul>
             <li>‌Level 3 - Fitness Instructor, Dubai. </li>
             <li>Sparkle Fitness Academy - Nutrition.</li>
             
-
-            </ul>
-          </div>
-          <div className="col-12 col-lg-6  mb-lg-5 pb-lg-5">
-            <h2 className='text-danger'>‌BFY Sports & Fitness Academy:</h2>
+            <li>‌BFY Sports & Fitness Academy:</li>
             <ul>
             <li>‌‌Special Population</li>
             <li>‌Knee- PreRehab & Rehab</li>
@@ -22,8 +18,10 @@ const Services = () => {
             <li>Training the Senior Citizen</li>
             <li>‌Foam Rolling</li>
             </ul>
+            </ul>
           </div>
-          <div className="col-12 col-lg-6">
+          
+          <div className="col-12 ">
             <h2 className='text-danger'>Services:</h2>
             <ul>
             <li>Posture Assessment</li>
